@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.page-content {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+/* Optional: background colors to visually separate sections */
+.section:nth-child(1) { background-color: #4CAF50; }
+.section:nth-child(2) { background-color: #2196F3; }
+.section:nth-child(3) { background-color: #f44336; }
