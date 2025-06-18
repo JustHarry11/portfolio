@@ -7,7 +7,10 @@ export default function Navbar() {
             <nav className="navbar">
                 <NavLink to="/">Home</NavLink>
                 <NavLink to="/about">About</NavLink>
+                <NavLink to="/projects">Projects</NavLink>
+                <NavLink to="/skills">Skills</NavLink>
                 <NavLink to="/contact">Contact</NavLink>
+
             </nav>
         </header>
     )
