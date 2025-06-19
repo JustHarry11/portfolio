@@ -1,4 +1,4 @@
-.page-content {
+.home-page-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,7 +6,7 @@
     text-align: center;
     height: 100vh;
 }
-.page-content h1,
-.page-content h2 {
+.home-page-content h1,
+.home-page-content h2 {
   margin: 0.5rem;
 }

@@ -16,10 +16,10 @@ export default function Home() {
     }, []);
 
     return (
-        <div className="page-content">
+        <div className="home-page-content">
             <h1>
                 <Typewriter
-                    words={['Harry']}
+                    words={['Harry Lippa']}
                     loop={1}
                     cursor={!typingDone}
                     cursorStyle=""
