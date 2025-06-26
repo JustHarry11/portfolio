@@ -31,7 +31,7 @@ export default function Home() {
             {showSecondLine && (
                 <h2>
                     <Typewriter
-                        words={['Front End Developer']}
+                        words={['Full Stack Developer']}
                         loop={1}
                         cursor={!typingDone}
                         cursorStyle=""

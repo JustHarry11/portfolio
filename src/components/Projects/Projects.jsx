@@ -4,7 +4,7 @@ import './Projects.css';
 
 export default function Projects() {
   return (
-    <section className="projects">
+    <>
       <h1 className='project-name-title'>Projects</h1>
       <div className="project-grid">
         {projects.map((project, idx) => (
@@ -25,6 +25,7 @@ export default function Projects() {
           </div>
         ))}
       </div>
-    </section>
+    </>
+
   );
 }
