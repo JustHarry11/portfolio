@@ -1,5 +1,7 @@
+import './Skills.css';
+
 export default function Skills(){
     return (
-        <h1 className="page-content">Skills</h1>
+        <h1 className="skill-name-title">Skills</h1>
     )
 }

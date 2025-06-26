@@ -15,6 +15,20 @@ const projects = [
     githubback: "https://github.com/JustHarry11/PlotPals-Backend-Harry",
     demo: "https://myplotpals.netlify.app/home",
   },
+  {
+    name: "Shower Thoughts",
+    description: "A app which allows you to create and post random shower thoughts and like others.",
+    tech: ["React", "Express", "JavaScript"],
+    githubfront: "https://github.com/JustHarry11/project-2",
+    demo: "https://some-shower-thoughts.netlify.app",
+  },
+  {
+    name: "Minesweepers",
+    description: "I created a Minesweeper game as my first project",
+    tech: ["HTML", "CSS", "JavaScript"],
+    githubfront: "https://github.com/JustHarry11/project-1",
+    demo: "https://justharry11.github.io/project-1/",
+  },
 ];
 
 export default projects;
