@@ -32,7 +32,7 @@ const skills = [
         image: "/images/MongoDB.png"
     },
     {
-        name: "RESTful Routing",
+        name: "REST",
         image: "/images/REST-logo.png"
     },
     {
