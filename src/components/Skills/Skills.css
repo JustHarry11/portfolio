@@ -1,3 +1,22 @@
 .skill-name-title {
     text-align: center;
 }
+
+.skills-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(7, 100px);
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.skill-card {
+
+}
+
+.skill-img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
