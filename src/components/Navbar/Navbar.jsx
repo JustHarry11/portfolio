@@ -1,15 +1,16 @@
-import { NavLink } from 'react-router'
+import React from 'react'
+import { Link } from 'react-scroll'
 import './Navbar.css'
 
 export default function Navbar() {
     return (
         <header>
             <nav className="navbar">
-                <NavLink to="/">Home</NavLink>
-                <NavLink to="/about">About</NavLink>
-                <NavLink to="/projects">Projects</NavLink>
-                <NavLink to="/skills">Skills</NavLink>
-                <NavLink to="/contact">Contact</NavLink>
+                <Link to="home" smooth={true} duration={500} offset={-50}>Home</Link>
+                <Link to="about" smooth={true} duration={500} offset={-50}>About</Link>
+                <Link to="projects" smooth={true} duration={500} offset={-50}>Projects</Link>
+                <Link to="skills" smooth={true} duration={500} offset={-50}>Skills</Link>
+                <Link to="contact" smooth={true} duration={500} offset={-50}>Contact</Link>
 
             </nav>
         </header>

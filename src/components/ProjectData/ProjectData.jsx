@@ -6,6 +6,7 @@ const projects = [
     githubfront: "https://github.com/JustHarry11/project-4-frontend",
     githubback: "https://github.com/JustHarry11/project-4-backend",
     demo: "https://boredgamers.netlify.app/boardgames",
+    image: "/images/Boredgamers.png",
   },
   {
     name: "PlotPals",
@@ -14,6 +15,7 @@ const projects = [
     githubfront: "https://github.com/JustHarry11/PlotPals-Frontend-Harry",
     githubback: "https://github.com/JustHarry11/PlotPals-Backend-Harry",
     demo: "https://myplotpals.netlify.app/home",
+    image: "/images/PlotPals.png",
   },
   {
     name: "Shower Thoughts",
@@ -21,6 +23,7 @@ const projects = [
     tech: ["React", "Express", "JavaScript"],
     githubfront: "https://github.com/JustHarry11/project-2",
     demo: "https://some-shower-thoughts.netlify.app",
+    image: "/images/ShowerThoughts.png",
   },
   {
     name: "Minesweepers",
@@ -28,6 +31,7 @@ const projects = [
     tech: ["HTML", "CSS", "JavaScript"],
     githubfront: "https://github.com/JustHarry11/project-1",
     demo: "https://justharry11.github.io/project-1/",
+    image: "/images/Minesweepers.png",
   },
 ];
 

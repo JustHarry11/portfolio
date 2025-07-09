@@ -1,17 +1,41 @@
 .project-grid {
   display: grid;
   gap: 2rem;
-  grid-template-columns: repeat(2, 500px);
+  grid-template-columns: repeat(1, 500px);
   justify-content: center;
 }
 
 .project-card {
-  background: #00000074;
-  padding: 1rem;
+  border: 2px solid #ccc;
+  padding: 16px;
+  margin-bottom: 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.project-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-text {
+  flex: 1;
+  padding-right: 16px;
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
 
 .project-name-title {
   text-align: center;
+}
+
+.project-image-wrapper {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  width: 160px;             
 }
