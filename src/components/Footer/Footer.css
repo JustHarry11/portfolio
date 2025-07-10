@@ -1,10 +1,28 @@
 footer {
-    text-align: center;
-    padding: 10px;
-    font-size: 0.9rem;
-    color: #ffffff;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #00000010;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #70a1f77c;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-weight: bold;
+
+    /* start hidden */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease;
+}
+
+footer.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+footer.hidden {
+  opacity: 0;
+  pointer-events: none;
 }

@@ -1,12 +1,13 @@
 .home-page-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 150px;
 }
+
 .home-page-content h1,
 .home-page-content h2 {
-  margin: 0.5rem;
+  margin: 0.5rem 0;
 }
