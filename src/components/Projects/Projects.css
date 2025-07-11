@@ -6,14 +6,12 @@
 .projects-container {
   max-width: 600px;
   margin: 0 auto;
-  text-align: left;
-  position: relative;
 }
 
 
 .project-card {
-  border: 2px solid #ffffff;
-  padding: 16px;
+  padding-left: 3rem; /* gap for the arrows */
+  padding-right: 3rem; /* gap for the arrow */
   margin-bottom: 20px;
   border-radius: 8px;
 }
@@ -45,6 +43,15 @@
   height: auto;
   border-radius: 8px;
 }
+
+
+.projects-container .swiper-button-next,
+.projects-container .swiper-button-prev {
+  color: #ffffff;
+}
+
+
+
 
 
 @media (max-width: 640px) {

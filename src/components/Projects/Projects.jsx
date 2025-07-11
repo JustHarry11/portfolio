@@ -1,9 +1,9 @@
 import React from 'react';
 import projects from '../ProjectData/ProjectData';
-import './Projects.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
+import './Projects.css';
 import { Navigation } from 'swiper/modules';
 
 export default function Projects() {
