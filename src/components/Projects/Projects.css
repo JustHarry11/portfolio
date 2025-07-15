@@ -10,8 +10,10 @@
 
 
 .project-card {
-  padding-left: 4rem; /* gap for the arrows */
-  padding-right: 4rem; /* gap for the arrow */
+  padding-left: 4rem;
+  /* gap for the arrows */
+  padding-right: 4rem;
+  /* gap for the arrow */
   color: #f0f0f0;
   border-radius: 12px;
   margin: 1rem 0;
@@ -20,7 +22,8 @@
 .project-text h3 {
   margin-top: 0;
   font-size: 1.5rem;
-  color: #ffffff; /* Highlight title */
+  color: #ffffff;
+  /* Highlight title */
 }
 
 .project-text p {
@@ -64,8 +67,9 @@
 
 
 .project-image {
-  max-width: 100%;
-  height: auto;
+  object-fit: cover;
+  height: 150px;
+  width: 100%;
   border-radius: 8px;
 }
 
@@ -75,6 +79,11 @@
   color: #ffffff;
 }
 
+.project-card,
+.project-image,
+.project-text a {
+  transition: all 0.3s ease;
+}
 
 
 
@@ -87,17 +96,23 @@
   .swiper-button-next {
     right: -20px;
   }
-}
 
-@media (max-width: 640px) {
+  .project-card {
+    padding: 1rem;
+  }
+
   .project-content {
     flex-direction: column;
     /* Stack vertically */
   }
 
+  .project-text {
+    text-align: center;
+  }
+
   .project-image-wrapper {
-    margin-bottom: 1rem;
-    width: 50%;
+    margin-right: 0;
+    width: 100%;
     /* Optional: full width on mobile */
   }
 
