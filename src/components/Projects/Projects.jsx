@@ -7,7 +7,7 @@ import './Projects.css';
 import { Navigation } from 'swiper/modules';
 
 export default function Projects() {
-return (
+  return (
     <div className="projects-container">
       <h1 className='project-name-title'>Projects</h1>
       <Swiper
@@ -23,6 +23,9 @@ return (
           <SwiperSlide key={idx}>
             <div className="project-card">
               <div className='project-content'>
+                <div className='project-image-wrapper'>
+                  <img src={project.image} alt={project.name} className='project-image' />
+                </div>
                 <div className='project-text'>
                   <h3>{project.name}</h3>
                   <p>{project.description}</p>
@@ -38,9 +41,7 @@ return (
                   )}
                   <a href={project.demo} target="_blank" rel="noopener noreferrer">Live Site</a>
                 </div>
-                <div className='project-image-wrapper'> 
-                  <img src={project.image} alt={project.name} className='project-image' />
-                </div>
+
               </div>
             </div>
           </SwiperSlide>
