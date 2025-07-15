@@ -7,7 +7,7 @@
   justify-content: center;
 }
 
-#about, #projects, #skills, #contact {
+ #projects, #skills, #contact {
   padding: 100px 20px;
   min-height:75vh;
 }
