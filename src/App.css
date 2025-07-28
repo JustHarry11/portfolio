@@ -4,8 +4,6 @@
   min-height: calc(100vh - 64px);
   height: auto;
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
 }
 
  #projects, #skills, #contact {

@@ -1,21 +1,14 @@
 .home-page-content {
-  /* text-align: center; */
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  min-height: 150px;
-  width: 100%;
-}
-
-.home-page-content h1,
-.home-page-content h2 {
-  margin: 0.5rem 0;
-  width: 100%;
+  justify-content: center; /* center the pair horizontally */
+  align-items: center;
+  gap: 4rem;               /* space between the two texts */
+  width: fit-content;      /* shrink container width to fit children */
+  margin: 0 auto;          /* center container itself in page */
 }
 
 .harry-text {
   color: black;
-  /* font-weight: lighter; */
   text-align: left;
   padding-left: 10rem;
 }
