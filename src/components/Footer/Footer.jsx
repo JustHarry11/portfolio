@@ -4,23 +4,29 @@ import './Footer.css';
 export default function Footer() {
   const [visible, setVisible] = useState(false);
 
-  useEffect(() => {
-    const onScroll = () => {
-      const scrollTop = window.scrollY;
-      const windowHeight = window.innerHeight;
-      const docHeight = document.documentElement.scrollHeight;
+useEffect(() => {
+  const checkFooterVisibility = () => {
+    const scrollTop = window.scrollY;
+    const windowHeight = window.innerHeight;
+    const docHeight = document.documentElement.scrollHeight;
+    const buffer = 150;
 
-      if (scrollTop + windowHeight >= docHeight) {
-        setVisible(true);
-      } else {
-        setVisible(false);
-      }
-    };
+    if (Math.ceil(scrollTop + windowHeight) >= docHeight - buffer) {
+      setVisible(true);
+    } else {
+      setVisible(false);
+    }
+  };
 
-    window.addEventListener('scroll', onScroll);
+  checkFooterVisibility(); // check immediately on load
+  window.addEventListener('scroll', checkFooterVisibility);
+  window.addEventListener('resize', checkFooterVisibility);
 
-    return () => window.removeEventListener('scroll', onScroll);
-  }, []);
+  return () => {
+    window.removeEventListener('scroll', checkFooterVisibility);
+    window.removeEventListener('resize', checkFooterVisibility);
+  };
+}, []);
 
   return (
     <footer className={visible ? 'visible' : 'hidden'}>

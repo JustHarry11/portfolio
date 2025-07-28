@@ -17,7 +17,7 @@ export default function Home() {
 
     return (
         <div className="home-page-content">
-            <h1>
+            <h1 className='harry-text'>
                 <Typewriter
                     words={['Harry Lippa']}
                     loop={1}
@@ -29,7 +29,7 @@ export default function Home() {
                 />
             </h1>
             {showSecondLine && (
-                <h2>
+                <h2 className='job-text'>
                     <Typewriter
                         words={['Full Stack Developer']}
                         loop={1}

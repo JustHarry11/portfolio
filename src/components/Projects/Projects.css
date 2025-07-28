@@ -77,7 +77,10 @@
 .projects-container .swiper-button-next,
 .projects-container .swiper-button-prev {
   color: #ffffff;
+  font-size: 16px; /* default is 44px */
+  transform: scale(0.6); /* shrink further if needed */
 }
+
 
 .project-card,
 .project-image,
