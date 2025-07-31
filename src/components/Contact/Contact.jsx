@@ -5,7 +5,7 @@ export default function Contact() {
         <>
             <h1 className="contact-name-title">Contact</h1>
             <div className='contact-detail'>
-                <img src="/images/IMG_3227.jpeg" alt='me' className='contact-img' />
+                <img src="/images/Me.png" alt='me' className='contact-img' />
 
                 <p>I have always enjoyed problem solving and understanding how things work. I studied Game Design at BA level and Software Engineering at a bootcamp from General Assembly. Both courses have enabled me to navigate and figure out solutions. There are similarities in both courses that have helped me utilise my skills.</p>
 
