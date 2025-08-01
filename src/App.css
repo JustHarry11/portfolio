@@ -4,9 +4,11 @@
   min-height: calc(100vh - 64px);
   height: auto;
   display: flex;
+  background-color: rgb(174, 176, 169);
 }
 
  #projects, #skills, #contact {
   padding: 100px 20px 0 20px;
   min-height:75vh;
+  background-color: rgb(174, 176, 169);
 }
