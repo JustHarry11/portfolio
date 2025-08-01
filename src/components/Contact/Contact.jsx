@@ -7,7 +7,7 @@ export default function Contact() {
             <div className='contact-detail'>
                 <img src="/images/Me.png" alt='me' className='contact-img' />
 
-                <p>I have always enjoyed problem solving and understanding how things work. I studied Game Design at BA level and Software Engineering at a bootcamp from General Assembly. Both courses have enabled me to navigate and figure out solutions. There are similarities in both courses that have helped me utilise my skills.</p>
+                <p>I have always enjoyed problem solving and understanding how things work. I studied Game Design at BA level and Software Engineering at a bootcamp from General Assembly. Both courses have enabled me to navigate and figure out solutions. Similarities in both courses have helped me apply my skills effectively.</p>
 
                 <a href="https://github.com/JustHarry11" target="_blank" rel="noopener noreferrer" className="contact-item">
                     <img src="/images/GitHub-logo.png" alt="GitHub" className="icon" />

@@ -1,21 +1,23 @@
 .navbar {
   position: fixed;
   top: 0;
-  width: 100%;
+  left: 0;
+  right: 0;
   background-color: rgb(174, 176, 169);
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 2rem;
-  padding: 1rem;
+  padding: 1rem 5%;
+  box-sizing: border-box; /* ensures padding is inside width */
   z-index: 1000;
+  overflow-x: auto; /* ensures content is scrollable if it still overflows */
 }
 
 .navbar::after {
   content: "";
   position: absolute;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  left: 5%;
   width: 90%;
   height: 2px;
   background-color: white;
