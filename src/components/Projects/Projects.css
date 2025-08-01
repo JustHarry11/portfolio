@@ -1,5 +1,10 @@
 .project-name-title {
-  text-align: center;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  width: 100vw;
+  /* full viewport width */
+  position: relative;
+  left: 10rem;
 }
 
 
@@ -77,8 +82,10 @@
 .projects-container .swiper-button-next,
 .projects-container .swiper-button-prev {
   color: #ffffff;
-  font-size: 16px; /* default is 44px */
-  transform: scale(0.6); /* shrink further if needed */
+  font-size: 16px;
+  /* default is 44px */
+  transform: scale(0.6);
+  /* shrink further if needed */
 }
 
 

@@ -1,5 +1,9 @@
 .contact-name-title {
-    text-align: center;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  width: 100vw; /* full viewport width */
+  position: relative;
+  left: 10rem; 
 }
 .contact-detail {
     display: flex;

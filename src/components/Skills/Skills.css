@@ -24,8 +24,12 @@
 }
 
 .skill-name-title {
-    text-align: center;
-    font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  width: 100vw;
+  /* full viewport width */
+  position: relative;
+  left: 10rem;
 }
 
 .skill-img {
