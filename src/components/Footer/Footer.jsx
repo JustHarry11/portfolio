@@ -33,7 +33,7 @@ useEffect(() => {
       <p>
         Designed & Developed by{' '}
         <a
-          href="https://github.com/JustHarry11"
+          href="https://www.linkedin.com/in/harry-lippa/"
           target="_blank"
           rel="noopener noreferrer"
         >

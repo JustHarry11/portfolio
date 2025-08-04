@@ -5,8 +5,10 @@ footer {
   background-color: rgb(174, 176, 169);
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 2rem;
+  padding: 1rem 5%; /* <-- matches navbar */
+  box-sizing: border-box;
   z-index: 1000;
   position: relative;
 
