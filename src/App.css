@@ -4,6 +4,12 @@
   min-height: calc(100vh - 64px);
   height: auto;
   display: flex;
+  /* background-image: url('/public/images/sanfran.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; */
+
+
   background-color: rgb(174, 176, 169);
 }
 
