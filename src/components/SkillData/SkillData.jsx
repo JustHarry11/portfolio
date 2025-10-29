@@ -55,6 +55,10 @@ const skills = [
         name: "Trello",
         image: "/images/Trello-logo.png"
     },
+        {
+        name: "Next.js",
+        image: "/images/Nextjs-logo.png"
+    },
 ]
 
 export default skills;
