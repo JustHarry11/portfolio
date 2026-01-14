@@ -33,6 +33,14 @@ const projects = [
     demo: "https://justharry11.github.io/project-1/",
     image: "/images/Minesweepers.png",
   },
+  {
+    name: "PitchStats",
+    description: "My first project post course and my first attempt at creating an app with Next.js",
+    tech: ["Next.js", "Tailwind", "TypeScript", "React"],
+    githubfront: "https://github.com/JustHarry11/matchday-dashboard",
+    demo: "https://matchday-dashboard-e2kc7hu5o-justharrys-projects.vercel.app/",
+    image: "/images/PitchStats.png",
+  }
 ];
 
 export default projects;
