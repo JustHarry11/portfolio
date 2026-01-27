@@ -1,7 +1,7 @@
 const projects = [
   {
     name: "Bored Gamers",
-    description: "A boardgame app which allows the user to display and add their favourite boardgames",
+    description: "An app which allows users to share their favourite board games and see others from different users.",
     tech: ["React", "CSS", "JavaScript", "Python", "Django"],
     githubfront: "https://github.com/JustHarry11/project-4-frontend",
     githubback: "https://github.com/JustHarry11/project-4-backend",
@@ -10,7 +10,7 @@ const projects = [
   },
   {
     name: "PlotPals",
-    description: "A Movie and Show app which allows the users to add different media",
+    description: "A place where you can share your favourite movies and tv shows.",
     tech: ["React", "Express", "JavaScript"],
     githubfront: "https://github.com/JustHarry11/PlotPals-Frontend-Harry",
     githubback: "https://github.com/JustHarry11/PlotPals-Backend-Harry",
@@ -35,7 +35,7 @@ const projects = [
   },
   {
     name: "PitchStats",
-    description: "My first project post course and my first attempt at creating an app with Next.js",
+    description: "My first project post course and my first attempt at creating an app with Next.js where using an API you can see a teams next fixtures and past results.",
     tech: ["Next.js", "Tailwind", "TypeScript", "React"],
     githubfront: "https://github.com/JustHarry11/matchday-dashboard",
     demo: "https://matchday-dashboard-e2kc7hu5o-justharrys-projects.vercel.app/",
