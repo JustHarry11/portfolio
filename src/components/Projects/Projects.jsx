@@ -9,9 +9,9 @@ import { Navigation } from 'swiper/modules';
 export default function Projects() {
   return (
     <>
-      <h1 className='project-name-title'>Projects</h1>
-      <div className="projects-container">
+      <h1 className="project-name-title">Projects</h1>
 
+      <div className="projects-container">
         <Swiper
           modules={[Navigation]}
           spaceBetween={50}
@@ -24,24 +24,56 @@ export default function Projects() {
           {projects.map((project, idx) => (
             <SwiperSlide key={idx}>
               <div className="project-card">
-                <div className='project-content'>
-                  <div className='project-image-wrapper'>
-                    <img src={project.image} alt={project.name} className='project-image' />
+                <div className="project-hover-wrapper">
+
+                  {/* IMAGE + TITLE */}
+                  <div className="project-front">
+                    <div className="image-container">
+                      <img
+                        src={project.image}
+                        alt={project.name}
+                        className="project-image"
+                      />
+                    </div>
+
+                    <h3 className="project-title">{project.name}</h3>
                   </div>
-                  <div className='project-text'>
-                    <h3>{project.name}</h3>
+
+                  {/* HOVER OVERLAY */}
+                  <div className="project-overlay">
                     <p>{project.description}</p>
-                    <p><strong>Tech:</strong> {project.tech.join(", ")}</p>
-                    <a href={project.githubfront} target="_blank" rel="noopener noreferrer">GitHub Front-End</a> |{" "}
+                    <p className="tech">
+                      <strong>Tech:</strong> {project.tech.join(', ')}
+                    </p>
+                  </div>
+
+                  {/* LINKS (always visible) */}
+                  <div className="project-links">
+                    <a
+                      href={project.githubfront}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      GitHub
+                    </a>
+
                     {project.githubback && (
-                      <>
-                        <a href={project.githubback} target="_blank" rel="noopener noreferrer">
-                          GitHub Back-End
-                        </a>
-                        {" | "}
-                      </>
+                      <a
+                        href={project.githubback}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Backend
+                      </a>
                     )}
-                    <a href={project.demo} target="_blank" rel="noopener noreferrer">Live Site</a>
+
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Live
+                    </a>
                   </div>
 
                 </div>
@@ -51,6 +83,5 @@ export default function Projects() {
         </Swiper>
       </div>
     </>
-
   );
 }
