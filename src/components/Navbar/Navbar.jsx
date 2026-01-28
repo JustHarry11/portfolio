@@ -10,7 +10,7 @@ export default function Navbar() {
                 <Link to="aboutme" smooth={true} duration={500} offset={-50} >About Me</Link>
                 <Link to="projects" smooth={true} duration={500} offset={-50} >Projects</Link>
                 <Link to="skills" smooth={true} duration={500} offset={-50}>Skills</Link>
-                <Link to="contact" smooth={true} duration={500} offset={-50}>Contact</Link>
+                {/* <Link to="contact" smooth={true} duration={500} offset={-50}>Contact</Link> */}
             </nav>
         </header>
     )

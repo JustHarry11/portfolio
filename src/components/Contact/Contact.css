@@ -1,7 +1,7 @@
-.contact-name-title {
+/* .contact-name-title {
   color: rgb(255, 255, 255);
   text-align: left;
-  width: 100vw; /* full viewport width */
+  width: 100vw;
   position: relative;
   left: 10rem; 
 }
@@ -32,15 +32,15 @@
 
 .contact-links {
   display: flex;
-  flex-direction: row; /* changed from column */
-  gap: 2rem; /* controls spacing between GitHub and LinkedIn */
-  flex-wrap: wrap; /* wraps on small screens */
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .contact-item {
   display: flex;
   align-items: center;
-  gap: 0.25rem; /* smaller gap between icon and text */
+  gap: 0.25rem;
   text-decoration: none;
   color: inherit;
   transition: transform 0.2s;
@@ -53,4 +53,4 @@
 
 h4 {
     margin: 0 auto;
-}
+} */

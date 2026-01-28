@@ -5,10 +5,10 @@ export default function Contact() {
         <>
             <h1 className="contact-name-title">Contact</h1>
             <div className='contact-detail'>
-                <img src="/images/Me.png" alt='me' className='contact-img' />
+                {/* <img src="/images/Me.png" alt='me' className='contact-img' /> */}
 
                 <div className='contact-text'>
-                    <p>I have always enjoyed problem solving and understanding how things work. I studied Game Design at BA level and Software Engineering at a bootcamp from General Assembly. Both courses have enabled me to navigate and figure out solutions. Similarities in both courses have helped me apply my skills effectively.</p>
+                    {/* <p>I have always enjoyed problem solving and understanding how things work. I studied Game Design at BA level and Software Engineering at a bootcamp from General Assembly. Both courses have enabled me to navigate and figure out solutions. Similarities in both courses have helped me apply my skills effectively.</p> */}
                     <div className='contact-links'>
                         <a href="https://github.com/JustHarry11" target="_blank" rel="noopener noreferrer" className="contact-item">
                             <img src="/images/GitHub-logo.png" alt="GitHub" className="icon" />

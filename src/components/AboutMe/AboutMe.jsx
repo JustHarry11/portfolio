@@ -5,7 +5,7 @@ export default function AboutMe() {
         <>
             <h1 className="aboutme-name-title">About Me</h1>
             <div className='aboutme-detail'>
-                {/* <img src="/images/Me.png" alt='me' className='contact-img' /> */}
+                <img src="/images/Me.png" alt='me' className='contact-img' />
 
                 <div className='aboutme-text'>
                     <p>Growing up, I have always had a passion for two things: Football and Gaming. With football, I try to watch it whenever I can. I am trying to get back into playing, but that is something I am looking forward to doing more. I am a Chelsea fan and going to the games is always a great experience, the night games are my favourite as it feels a bit different when you are under the lights.  
