@@ -67,13 +67,17 @@ export default function Projects() {
                       </a>
                     )}
 
-                    <a
-                      href={project.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Live
-                    </a>
+                    {project.demo && (
+                      <a
+                        href={project.demo}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Live
+                      </a>
+                    )}
+
+
                   </div>
 
                 </div>
