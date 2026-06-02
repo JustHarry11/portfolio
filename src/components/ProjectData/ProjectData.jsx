@@ -34,13 +34,13 @@ const projects = [
     image: "/images/Minesweepers.png",
   },
   {
-    name: "PitchStats",
-    description: "My first project post course and my first attempt at creating an app with Next.js where using an API you can see a teams next fixtures and past results.",
-    tech: ["Next.js", "Tailwind", "TypeScript", "React"],
-    githubfront: "https://github.com/JustHarry11/matchday-dashboard",
-    demo: "https://matchday-dashboard-e2kc7hu5o-justharrys-projects.vercel.app/",
-    image: "/images/PitchStats.png",
-  }
+    name: "Recipe Scale App",
+    description: "A mobile recipe scaling app built with React Native and Expo Router that allows users to create recipes and dynamically adjust ingredient quantities based on serving size.",
+    tech: ["React Native", "Expo", "Expo Router","TypeScript", "AsyncStorage"],
+    githubfront: "https://github.com/JustHarry11/recipe-scale",
+    image: "/images/RecipeScale.png",
+  },
+  
 ];
 
 export default projects;
